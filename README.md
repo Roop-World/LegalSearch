@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/roop-chevron-mark.svg" alt="Roop chevron mark" width="96" />
+</p>
+
 # LegalSearch Agent Kit
 
 LegalSearch is Roop's public MCP for grounding external agents in Roop's public Indian judgments and statutes without adopting the full Roop platform or migrating an existing agent stack.
