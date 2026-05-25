@@ -1,9 +1,10 @@
 # LegalSearch MCP Setup
 
-LegalSearch is the public GitHub Registry display name for Roop's public legal MCP.
+LegalSearch is the official MCP Registry display name for Roop's public legal MCP.
 
 - Display title: `LegalSearch`
 - Canonical MCP Registry ID: `ai.roopslaw/legalsearch`
+- Registry status: published and active
 
 ## Canonical Public URLs
 
@@ -12,6 +13,7 @@ LegalSearch is the public GitHub Registry display name for Roop's public legal M
 - Discovery JSON: <https://mcp.roopslaw.ai/.well-known/roop-public-mcp.json>
 - Human/bot guide: <https://www.roopslawassist.com/bots>
 - `llms.txt`: <https://www.roopslawassist.com/llms.txt>
+- Official MCP Registry search: <https://registry.modelcontextprotocol.io/v0.1/servers?search=LegalSearch>
 
 ## Codex
 

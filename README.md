@@ -8,6 +8,7 @@ Registry name:
 
 - Display title: `LegalSearch`
 - Canonical MCP Registry ID: `ai.roopslaw/legalsearch`
+- Official MCP Registry status: published and active
 
 ## Public Endpoints
 
@@ -16,6 +17,7 @@ Registry name:
 - Discovery JSON: <https://mcp.roopslaw.ai/.well-known/roop-public-mcp.json>
 - Roop bot guide: <https://www.roopslawassist.com/bots>
 - Roop llms.txt: <https://www.roopslawassist.com/llms.txt>
+- Official MCP Registry search: <https://registry.modelcontextprotocol.io/v0.1/servers?search=LegalSearch>
 
 ## What LegalSearch Provides
 
