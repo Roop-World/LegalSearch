@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.roopslaw/legalsearch",
+  "description": "Public Indian legal search MCP for Roop judgments, statutes, and corpus grounding.",
+  "title": "LegalSearch",
+  "websiteUrl": "https://www.roopslawassist.com/bots",
+  "repository": {
+    "url": "https://github.com/Roop-World/LegalSearch",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.roopslaw.ai/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional bearer token for authenticated LegalSearch access. Use: Bearer ${ROOP_PUBLIC_MCP_API_KEY}",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "displayName": "LegalSearch",
+      "provider": "Roop's Law Assist",
+      "docs": "https://www.roopslawassist.com/bots"
+    }
+  }
+}

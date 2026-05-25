@@ -1,0 +1,16 @@
+interface:
+  display_name: "Roop Public Legal MCP"
+  short_description: "Ground Indian legal research with Roop MCP."
+  default_prompt: "Use $roop-public-legal-mcp to answer this Indian legal research question with Roop Public MCP grounding."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "roop_public_legal"
+      description: "Roop Public Legal MCP for public judgments and statutes"
+      transport: "streamable_http"
+      url: "https://mcp.roopslaw.ai/mcp"
+
+policy:
+  allow_implicit_invocation: true
+
